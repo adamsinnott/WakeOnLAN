@@ -1,6 +1,6 @@
 # WakeOnLAN
 
-This app will wake a computer up based on its MAC Address.
+This was a weekend project with the goal, to wake a computer up based on its MAC Address.
 
 It was created with help from the following three resources:
 
