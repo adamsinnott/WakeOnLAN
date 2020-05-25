@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="uk.co.verygoodapps.wakeonlan.MainActivity">
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ip_address_to_wake_sample"
+        android:hint="@string/ip_to_wake_hint" />
+    <EditText
+        android:id="@+id/macaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mac_sample"
+        android:inputType="textCapCharacters"
+        android:hint="@string/mac_address_hint" />
+    <Button
+        android:id="@+id/wakeup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wake_up"/>
+
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/state_sample"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/received"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+    </LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WakeOnLAN</string>
+    <string name="wake_up">Wake Up</string>
+    <string name="mac_sample">B4:2E:99:9B:D5:DE</string>
+    <string name="mac_address_hint">MAC Address</string>
+    <string name="ip_to_wake_hint">IP Address to Wake</string>
+    <string name="ip_address_to_wake_sample">192.168.0.180</string>
+    <string name="state_sample">Not woken</string>
+</resources>
